@@ -1,94 +1,112 @@
 const perguntas = [
     {
-       pergunta: "Qual palavra-chave é utilizada para declarar uma variável que não pode ser reatribuída em JavaScript?",
-       respostas: [
-           "let",
-           "const",
-           "var",
-       ],
-       correta: 1
-   },
-   {
-       pergunta: "O que é o DOM (Document Object Model) em JavaScript?",
-       respostas: [
-           "Uma linguagem de programação.",
-           "Um modelo para representar documentos HTML e XML.",
-           "Uma biblioteca JavaScript popular.",
-       ],
-       correta: 1
-   },
-   {
-       pergunta: "Como se chama a função utilizada para imprimir mensagens no console em JavaScript?",
-       respostas: [
-           "print()",
-           "console.log()",
-           "display()",
-       ],
-       correta: 1
-   },
-   {
-       pergunta: "Qual é a função do operador '===' em JavaScript?",
-       respostas: [
-           "Comparação de valores sem considerar o tipo",
-           "Atribuição de valores",
-           "Comparação estrita de valores e tipos",
-       ],
-       correta: 2
-   },
-   {
-       pergunta: "Qual método é utilizado para adicionar um elemento ao final de um array em JavaScript?",
-       respostas: [
-           "push()",
-           "add()",
-           "append()",
-       ],
-       correta: 0
-   },
-   {
-       pergunta: "O que é o JSON em JavaScript?",
-       respostas: [
-           "Uma linguagem de programação.",
-           "Um formato de dados para intercâmbio de informações.",
-           "Uma biblioteca JavaScript popular.",
-       ],
-       correta: 1
-   },
-   {
-       pergunta: "Como se chama a estrutura condicional que avalia várias condições em JavaScript?",
-       respostas: [
-           "if",
-           "switch",
-           "for",
-       ],
-       correta: 1
-   },
-   {
-       pergunta: "O que é o evento 'click' em JavaScript?",
-       respostas: [
-           "Um tipo de dado.",
-           "Uma função interna.",
-           "Uma ação do usuário, como clicar em um elemento.",
-       ],
-       correta: 2
-   },
-   {
-       pergunta: "Qual é a finalidade do método 'querySelector()' em JavaScript?",
-       respostas: [
-           "Selecionar elementos HTML pelo nome.",
-           "Selecionar elementos HTML pela classe.",
-           "Selecionar elementos HTML pelo seletor CSS.",
-       ],
-       correta: 2
-   },
-   {
-       pergunta: "O que é o AJAX em JavaScript?",
-       respostas: [
-           "Uma linguagem de programação.",
-           "Uma técnica para atualizar a página inteira.",
-           "Uma técnica para fazer requisições assíncronas ao servidor.",
-       ],
-       correta: 2
-   },
+        pergunta: "Qual é o nome do herói principal em 'Homem de Ferro'?",
+        respostas: [
+            "Steve Rogers",
+            "Tony Stark",
+            "Bruce Banner",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem é o vilão principal em 'Vingadores: Guerra Infinita'?",
+        respostas: [
+            "Loki",
+            "Thanos",
+            "Ultron",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o nome da pedra do infinito que concede controle mental em 'Vingadores'?",
+        respostas: [
+            "Pedra da Mente",
+            "Pedra da Alma",
+            "Pedra da Realidade",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem é o pai adotivo de Peter Quill em 'Guardiões da Galáxia'?",
+        respostas: [
+            "Yondu Udonta",
+            "Ego, o Planeta Vivo",
+            "Nova Prime",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual é o verdadeiro nome do super-herói 'Pantera Negra'?",
+        respostas: [
+            "T'Challa",
+            "N'Jobu",
+            "M'Baku",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem é conhecido como o Deus do Trovão no MCU?",
+        respostas: [
+            "Tony Stark",
+            "Peter Parker",
+            "Thor",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é o nome da primeira inteligência artificial de Tony Stark?",
+        respostas: [
+            "J.A.R.V.I.S.",
+            "F.R.I.D.A.Y.",
+            "H.E.L.P.E.R.",
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Quem é o mentor de Peter Parker em 'Homem-Aranha: De Volta ao Lar'?",
+        respostas: [
+            "Nick Fury",
+            "Tony Stark",
+            "Hank Pym",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Qual é o nome do reino natal do Doutor Estranho?",
+        respostas: [
+            "Asgard",
+            "Wakanda",
+            "Kamar-Taj",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Quem é o inimigo principal em 'Homem-Formiga'?",
+        respostas: [
+            "Obadiah Stane",
+            "Baron Zemo",
+            "Darren Cross",
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Qual é o nome do cientista que desenvolve a fórmula do soro do supersoldado?",
+        respostas: [
+            "Dr. Arnim Zola",
+            "Dr. Abraham Erskine",
+            "Dr. Samuel Sterns",
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem é o responsável pela criação do Visão em 'Vingadores: A Era de Ultron'?",
+        respostas: [
+            "Bruce Banner",
+            "Tony Stark",
+            "Hank Pym",
+        ],
+        correta: 1
+    }
 ];
 
 const quiz = document.querySelector ('#quiz')
@@ -103,31 +121,32 @@ mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
 
 //loop ou laço de repetição
 for(const item of perguntas) {
- const quizItem = template.content.cloneNode(true)
- quizItem.querySelector ('h3').textContent = item.pergunta
- 
- for(let resposta of item.respostas){
-   const dt = quizItem.querySelector('dl dt').cloneNode(true)
-   dt.querySelector('span').textContent = resposta
-   //instrução que vai permitir escolher uma opção pra cada pergunta do quizz
-   dt.querySelector('input').setAttribute('name','pergunta-' + perguntas.indexOf(item))
-   dt.querySelector('input').value = item.respostas.indexOf(resposta)
-   //isso é uma arrow function e significa que toda vez que essa função for executada, 
-   dt.querySelector('input').onchange = (event) => {
-       const estaCorreta = event.target.value == item.correta
+  const quizItem = template.content.cloneNode(true)
+  quizItem.querySelector ('h3').textContent = item.pergunta
+  
+  for(let resposta of item.respostas){
+    const dt = quizItem.querySelector('dl dt').cloneNode(true)
+    dt.querySelector('span').textContent = resposta
+    //instrução que vai permitir escolher uma opção pra cada pergunta do quizz
+    dt.querySelector('input').setAttribute('name','pergunta-' + perguntas.indexOf(item))
+    dt.querySelector('input').value = item.respostas.indexOf(resposta)
+    //isso é uma arrow function e significa que toda vez que essa função for executada, 
+    dt.querySelector('input').onchange = (event) => {
+        const estaCorreta = event.target.value == item.correta
 
-       corretas.delete(item)
-       if (estaCorreta) {
-           corretas.add(item)
-       }
-       mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
-   }
+        corretas.delete(item)
+        if (estaCorreta) {
+            corretas.add(item)
+        }
+        mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
+    }
 
-   quizItem.querySelector('dl').appendChild(dt)
- }
+    quizItem.querySelector('dl').appendChild(dt)
+  }
 
- quizItem.querySelector('dl dt').remove()
+  quizItem.querySelector('dl dt').remove()
 
- //coloca a pergunta na tela
- quiz.appendChild(quizItem)
+  //coloca a pergunta na tela
+  quiz.appendChild(quizItem)
+  
 }
