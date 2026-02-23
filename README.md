@@ -11,7 +11,7 @@ A quiz application about the Marvel Cinematic Universe (MCU), developed in Rocke
 2. Alternatively, visit the live version at [gsbado.github.io/projeto-gta/.](https://gsbado.github.io/nlw-experts/)
 
 ## 🙌 Credits
-- Original project by Rocketseat (NLW Experts – HTML+CSS+JS track)
+- Original project by Rocketseat (NLW Experts – HTML+CSS+JS)
 - Modified by Gabriela Spanemberg Bado
 - Background Image: Marvel Studios
 
@@ -19,4 +19,8 @@ A quiz application about the Marvel Cinematic Universe (MCU), developed in Rocke
 This project is for educational purposes.
 
 ## 🖥️ Preview
+![Quiz_MCU_Marvel](assets/preview.jpg)
+
+![Quiz_MCU_Marvel 2](assets/preview2.jpg)
+
 > Examples of the project interface.
