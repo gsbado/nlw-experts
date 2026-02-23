@@ -1,5 +1,5 @@
 # Test Your Knowledge - Marvel MCU Edition
-A quiz application about the Marvel Cinematic Universe (MCU), developed in Rocketseat's NLW Experts, using semantic HTML, CSS, and JavaScript.
+A simple quiz application about the Marvel Cinematic Universe (MCU), developed during Rocketseat's NLW Experts week. The app presents multiple-choice questions and displays the total number of correct answers in the footer as the user progresses.
 
 ## 🛠️ Technologies Used
 - HTML5
