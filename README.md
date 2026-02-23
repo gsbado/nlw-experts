@@ -1,4 +1,4 @@
-# Test Your Knowledge - Marvel MCU Edition
+# 🦸 Test Your Knowledge - Marvel MCU Edition
 A simple quiz application about the Marvel Cinematic Universe (MCU), developed during Rocketseat's NLW Experts week. The app presents multiple-choice questions and displays the total number of correct answers in the footer as the user progresses.
 
 ## 🛠️ Technologies Used
