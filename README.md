@@ -7,12 +7,13 @@ A quiz application about the Marvel Cinematic Universe (MCU), developed in Rocke
 - JavaScript
 
 ## 👀 How to View
-1. Clone or download the repository.
-2. Open `index.html` in your web browser.
+1. To view the project locally, clone or download the repository and open the index.html file in your web browser.
+2. Alternatively, visit the live version at [gsbado.github.io/projeto-gta/.](https://gsbado.github.io/nlw-experts/)
 
 ## 🙌 Credits
 - Original project by Rocketseat (NLW Experts – HTML+CSS+JS track)
 - Modified by Gabriela Spanemberg Bado
+- Background Image: Marvel Studios
 
 ## 📄 License
 This project is for educational purposes.
