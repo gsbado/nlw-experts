@@ -1,21 +1,21 @@
-# Teste seus conhecimentos - Edição MCU Marvel
-Uma aplicação de quiz sobre o Universo Cinematográfico da Marvel (MCU), desenvolvida no NLW Experts da Rocketseat, com HTML semântico, CSS e JavaScript.
+# Test Your Knowledge - Marvel MCU Edition
+A quiz application about the Marvel Cinematic Universe (MCU), developed in Rocketseat's NLW Experts, using semantic HTML, CSS, and JavaScript.
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 - HTML5
 - CSS3
 - JavaScript
 
-## 👀 Como Visualizar
-1. Clone ou baixe o repositório.
-2. Abra `index.html` no seu navegador web.
+## 👀 How to View
+1. Clone or download the repository.
+2. Open `index.html` in your web browser.
 
-## 🙌 Créditos
-- Projeto original pela Rocketseat (NLW Experts – trilha HTML+CSS+JS)
-- Modificado por Gabriela Spanemberg Bado
+## 🙌 Credits
+- Original project by Rocketseat (NLW Experts – HTML+CSS+JS track)
+- Modified by Gabriela Spanemberg Bado
 
-## 📄 Licença
-Este projeto é para fins educacionais.
+## 📄 License
+This project is for educational purposes.
 
 ## 🖥️ Preview
-> Exemplos da interface do projeto.
+> Examples of the project interface.
